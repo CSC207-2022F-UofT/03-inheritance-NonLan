@@ -114,8 +114,8 @@ public abstract class Bag {
         }
         else {
             this.numberOfContents -= 1;
-            String lastItem = this.contents[numberOfContents];
-            this.contents[numberOfContents] = "";
+            String lastItem = this.contents[this.numberOfContents];
+            this.contents[this.numberOfContents] = "";
             return lastItem;
         }
     }
