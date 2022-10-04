@@ -109,7 +109,7 @@ public abstract class Bag {
      * @return
      */
     public String popItem() {
-        if (numberOfContents == 0) {
+        if (this.numberOfContents == 0) {
             return null;
         }
         else {
